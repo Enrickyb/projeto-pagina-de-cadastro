@@ -1,0 +1,113 @@
+    @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+        font-family: 'Poppings', sans-serif;
+    }
+    body {
+        background-color: #1b2029;
+        color: white;
+        display: flex;
+        min-height: 100vh;
+        font-weight: 500;
+    }
+    main {
+        width: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    main h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    .social-midia a {
+        text-decoration: none;
+    }
+    .social-midia {
+        display: flex;
+        align-items: center;
+    }
+    .social-midia img {
+        width: 36px;
+        margin-left: 3rem;
+
+    }
+    .social-midia a:first-child img {
+        margin-left: 0;
+    }
+    main .alternative {
+        margin-top: 1rem;
+    }
+    main .alternative span {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: rgba (255, 255, 255);
+        position: relative;
+    }
+    main .alternative span::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: white;
+    bottom: 50%;  
+    right: 50px;
+    }
+    main .alternative span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: white;
+    bottom: 50%;  
+    left: 50px;
+    }
+    main form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main form label {
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    main form label span {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+    main form input {
+        background-color: #161923;
+        width: 300px;
+        height: 50px;
+        padding: 0 0.5rem;
+        margin-top: 1rem;
+        color: lightgray;
+        font-size: 1rem;
+        border: 1px solid #040b18;
+        border-radius: 10px;
+    }
+    #submit {
+        cursor: pointer;
+        width: 50%;
+        margin-top: 25px;
+        border: none;
+        border-radius: 32px;
+        background-color: #6c63FF;
+        color: white;
+        font-size: 1.1rem;
+        transition: all .5s;
+    }
+    #submit:hover {
+        background-color: #5952d4
+    } 
+    #login{
+        color: white;
+        padding-top: 20px;
+    }
